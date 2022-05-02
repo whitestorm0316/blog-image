@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T12:32:12.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" version="17.5.0" etag="DQODD-TRQ85BFDALOFvL" type="github"><diagram id="U8GxoP8SbjYE25hIC8NG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T12:51:12.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="Fm08G3Uss0YC4XoIxHS0" version="17.5.0" type="github">
+  <diagram id="U8GxoP8SbjYE25hIC8NG" name="Page-1">
+    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="440" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-1" value="apiServers" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-2" value="dataServers" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-7" value="RabbitMq消息队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="260" as="sourcePoint" />
+            <mxPoint x="840" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.mac_client;" vertex="1" parent="1">
+          <mxGeometry x="356" y="153" width="58" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-10" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_proportional;" vertex="1" parent="1">
+          <mxGeometry x="120" y="162" width="17" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.ipad_mini;" vertex="1" parent="1">
+          <mxGeometry x="640" y="154" width="33" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-13" value="接口服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-14" value="接口服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-15" value="数据服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="150" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-16" value="数据服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-17" value="数据服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PF_r4p5rS0_6sr-8gZiU-18" value="数据服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="690" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
